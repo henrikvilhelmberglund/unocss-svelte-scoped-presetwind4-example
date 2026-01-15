@@ -15,7 +15,15 @@ export default defineConfig({
     { 'styled-input': 'rounded-md border-gray-300 focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50' },
   ],
   presets: [
-    presetWind4(),
+    presetWind4({
+      preflights: {
+        // ! broken
+        theme: "on-demand"
+
+        // ! works
+        // theme: true
+      }
+    }),
     // presetForms(),
     presetIcons({
       prefix: 'i-',
