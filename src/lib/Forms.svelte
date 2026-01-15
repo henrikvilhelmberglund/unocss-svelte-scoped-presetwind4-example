@@ -4,10 +4,10 @@
       >@tailwindcss/forms</a
     >
     for UnoCSS at
-    <a href="https://github.com/Julien-R44/unocss-preset-forms"
+    <a class="underline" href="https://github.com/Julien-R44/unocss-preset-forms"
       >Julien-R44/unocss-preset-forms</a
     >. Here's a few examples but you should check out the original plugin's full
-    <a href="https://tailwindcss-forms.vercel.app/">demo</a>.
+    <a class="underline" href="https://tailwindcss-forms.vercel.app/">demo</a>.
   </div>
 
   <div class="mb-2">
@@ -37,9 +37,3 @@
     <label for="my_checkbox">.text-pink-500</label>
   </div>
 </div>
-
-<style>
-  a {
-    --at-apply: underline;
-  }
-</style>

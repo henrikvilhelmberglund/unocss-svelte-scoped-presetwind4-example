@@ -18,6 +18,7 @@
 
 <style>
   .apply-spacing {
-    --at-apply: flex space-x-1 md:space-x-4 rtl:space-x-reverse;
+    /* --at-apply: flex space-x-1 md:space-x-4 rtl:space-x-reverse; */
+    /* TODO fix */
   }
 </style>

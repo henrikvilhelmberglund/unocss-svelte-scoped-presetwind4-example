@@ -56,9 +56,9 @@
 
   <div class="corner">Fixed</div>
 </div>
-
 <style>
   .corner {
-    --at-apply: fixed flex left-2 bottom-2 md:left-6 md:bottom-6 bg-white dark:bg-black p-1;
+    /* --at-apply: fixed flex left-2 bottom-2 md:left-6 md:bottom-6 bg-white dark:bg-black p-1; */
+    /* TODO fix */
   }
 </style>

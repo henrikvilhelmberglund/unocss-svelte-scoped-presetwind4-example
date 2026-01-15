@@ -1,4 +1,5 @@
-import { presetForms } from '@julr/unocss-preset-forms'
+// import { presetForms } from '@julr/unocss-preset-forms'
+// TODO fix above preset
 import {
   defineConfig,
   presetIcons,
@@ -15,7 +16,7 @@ export default defineConfig({
   ],
   presets: [
     presetWind4(),
-    presetForms(),
+    // presetForms(),
     presetIcons({
       prefix: 'i-',
       extraProperties: {
